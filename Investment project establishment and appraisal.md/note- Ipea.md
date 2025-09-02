@@ -24,6 +24,7 @@ $$FV = P \times (1 + r)^n$$
 
 **Công thức:**
 $$PV = \frac{FV}{(1 + r)^n}$$
+
 **Ví dụ 1:** PV của 1,21 đồng sẽ nhận sau 2 năm (n=2) là bao nhiêu với suất chiết khấu 10% năm (r=10%) tính theo lãi kép?
 - PV = 1.21 / (1 + 10%)^2 = 1.21 / (1.1)^2 = 1.21 / 1.21 = 1
 
@@ -62,6 +63,7 @@ Trong đó:
 
 **Công thức:**
 $$FV = A \times \left[ \frac{(1 + r)^n - 1}{r} \right]$$
+
 **Ví dụ:** FV của loạt tiền đều nhau là 100 USD với thời gian 2 năm, lãi suất 10% năm là bao nhiêu?
 - FV = 100 * [ ((1 + 10%)^2 - 1) / 10% ] = 210
 
@@ -70,6 +72,7 @@ $$FV = A \times \left[ \frac{(1 + r)^n - 1}{r} \right]$$
 
 **Công thức:**
 $$A = PV \times \left[ \frac{r \times (1 + r)^n}{(1 + r)^n - 1} \right]$$
+
 **Ví dụ:** Lập lịch trả nợ cho khoản vay 100 USD, lãi suất 10%, thời hạn 2 năm, phương thức trả mỗi năm số tiền đều nhau?
 - A = 100 * [ 10% * (1 + 10%)^2 / ((1 + 10%)^2 - 1) ] = 57.62
 
@@ -104,6 +107,7 @@ Trong đó:
 
 **Công thức:**
 $$\sum_{t=1}^{n} \frac{NCF_t}{(1 + IRR)^t} - I_0 = 0$$
+
 **Ví dụ:** Đầu năm bỏ ra 100 triệu, cuối năm mang về 120 triệu.
 - -100 + 120 / (1 + IRR) = 0
 - IRR = 20%
@@ -113,6 +117,7 @@ $$\sum_{t=1}^{n} \frac{NCF_t}{(1 + IRR)^t} - I_0 = 0$$
 
 **Công thức:**
 $$PI = \frac{\text{Tổng PV dòng thu}}{\text{Tổng PV dòng chi}}$$
+
 **Ví dụ:** Với dự án trên:
 - PI = 2579 / 3000 = 0.86 (Dự án không đáng giá vì PI < 1)
 
@@ -223,4 +228,5 @@ Giá trị thặng dư xã hội = Giá trị gia tăng quốc dân thuần + Ti
 **Mô tả:** Tương tự IRR nhưng tính cho toàn xã hội, sử dụng lợi ích (B) và chi phí (C) kinh tế.
 
 $$\sum_{t=0}^{n} \frac{B_t - C_t}{(1 + ERR)^t} = 0$$
+
 
