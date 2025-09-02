@@ -4,6 +4,7 @@
 
 ### 1.1. Giá Trị Tương Lai (FV) – Lãi Đơn
 **Mô tả:** Số tiền gốc cộng với tiền lãi trong tương lai, với lãi suất chỉ tính trên vốn gốc.
+
 **Công thức:**
 $$FV = P + (P \times r \times n)$$
 **Ví dụ:** Tính lãi cho số tiền gốc 100 (đơn vị tiền) với lãi suất 10% năm, thời gian 2 năm.
@@ -12,6 +13,7 @@ $$FV = P + (P \times r \times n)$$
 
 ### 1.2. Giá Trị Tương Lai (FV) – Lãi Kép
 **Mô tả:** Số tiền gốc cộng với tiền lãi trong tương lai, với lãi suất tính trên lãi.
+
 **Công thức:**
 $$FV = P \times (1 + r)^n$$
 **Ví dụ:** FV của 100 (đơn vị tiền) sau 2 năm (n=2) là bao nhiêu với lãi suất 10% năm (r=10%) tính theo lãi kép?
@@ -19,6 +21,7 @@ $$FV = P \times (1 + r)^n$$
 
 ### 1.3. Giá Trị Hiện Tại (PV) – Một Khoản Tiền Đơn
 **Mô tả:** Là giá trị đồng tiền dự tính có trong tương lai quy về giá trị hiện tại.
+
 **Công thức:**
 $$PV = \frac{FV}{(1 + r)^n}$$
 **Ví dụ 1:** PV của 1,21 đồng sẽ nhận sau 2 năm (n=2) là bao nhiêu với suất chiết khấu 10% năm (r=10%) tính theo lãi kép?
@@ -29,6 +32,7 @@ $$PV = \frac{FV}{(1 + r)^n}$$
 
 ### 1.4. Giá Trị Hiện Tại (PV) – Dòng Tiền Vĩnh Viễn (Perpetuity)
 **Mô tả:** Tính giá trị hiện tại của một chuỗi dòng tiền bằng nhau và không có giới hạn cuối cùng.
+
 **Công thức:**
 $$PV = \frac{A}{r}$$
 Trong đó:
@@ -40,6 +44,7 @@ Trong đó:
 
 ### 1.5. Giá Trị Hiện Tại (PV) – Dòng Tiền Đều (Annuity) Có Thời Hạn n
 **Mô tả:** Tính giá trị hiện tại của một loạt dòng tiền bằng nhau, có thời hạn xác định.
+
 **Công thức:**
 $$PV = A \times \left[ \frac{1 - (1 + r)^{-n}}{r} \right]$$
 Trong đó:
@@ -52,6 +57,7 @@ Trong đó:
 
 ### 1.6. Giá Trị Tương Lai (FV) – Dòng Tiền Đều (Annuity) Có Thời Hạn n
 **Mô tả:** Tính giá trị tương lai của một loạt dòng tiền bằng nhau, có thời hạn xác định.
+
 **Công thức:**
 $$FV = A \times \left[ \frac{(1 + r)^n - 1}{r} \right]$$
 **Ví dụ:** FV của loạt tiền đều nhau là 100 USD với thời gian 2 năm, lãi suất 10% năm là bao nhiêu?
@@ -59,6 +65,7 @@ $$FV = A \times \left[ \frac{(1 + r)^n - 1}{r} \right]$$
 
 ### 1.7. Số Tiền Trả Đều Hàng Năm Cho Khoản Vay (PMT)
 **Mô tả:** Tính số tiền trả đều hàng năm cho một khoản vay trong một số kỳ nhất định.
+
 **Công thức:**
 $$A = PV \times \left[ \frac{r \times (1 + r)^n}{(1 + r)^n - 1} \right]$$
 **Ví dụ:** Lập lịch trả nợ cho khoản vay 100 USD, lãi suất 10%, thời hạn 2 năm, phương thức trả mỗi năm số tiền đều nhau?
@@ -77,6 +84,7 @@ $$A = PV \times \left[ \frac{r \times (1 + r)^n}{(1 + r)^n - 1} \right]$$
 
 ### 2.1. Giá Trị Hiện Tại Ròng (NPV)
 **Mô tả:** Đo lường sự gia tăng giá trị ròng của dự án bằng cách chiết khấu tất cả các dòng ngân lưu về hiện tại.
+
 **Công thức:**
 $$NPV = \sum_{t=1}^{n} \frac{NCF_t}{(1 + r)^t} - I_0$$
 Trong đó:
@@ -90,6 +98,7 @@ Trong đó:
 
 ### 2.2. Suất Sinh Lời Nội Tại (IRR)
 **Mô tả:** Là suất chiết khấu mà tại đó giá trị hiện tại ròng (NPV) của dự án bằng 0.
+
 **Công thức:**
 $$\sum_{t=1}^{n} \frac{NCF_t}{(1 + IRR)^t} - I_0 = 0$$
 **Ví dụ:** Đầu năm bỏ ra 100 triệu, cuối năm mang về 120 triệu.
@@ -98,6 +107,7 @@ $$\sum_{t=1}^{n} \frac{NCF_t}{(1 + IRR)^t} - I_0 = 0$$
 
 ### 2.3. Khả Năng Sinh Lời (PI)
 **Mô tả:** So sánh giá trị hiện tại dòng thu với giá trị hiện tại dòng chi.
+
 **Công thức:**
 $$PI = \frac{\text{Tổng PV dòng thu}}{\text{Tổng PV dòng chi}}$$
 **Ví dụ:** Với dự án trên:
@@ -105,11 +115,13 @@ $$PI = \frac{\text{Tổng PV dòng thu}}{\text{Tổng PV dòng chi}}$$
 
 ### 2.4. Kỳ Hoàn Vốn Không Chiết Khấu (PP)
 **Mô tả:** Thời gian cần thiết để dòng thu tích lũy đủ bù đắp dòng chi, không tính giá trị thời gian của tiền.
+
 **Công thức:**
 $$PP = \text{Năm trước hòa vốn} + \frac{|\text{Ngân lưu ròng lũy kế âm cuối cùng}|}{\text{Ngân lưu ròng của năm kế tiếp}}$$
 
 ### 2.5. Kỳ Hoàn Vốn Có Chiết Khấu (DPP)
 **Mô tả:** Thời gian cần thiết để dòng thu chiết khấu tích lũy đủ bù đắp dòng chi chiết khấu.
+
 **Công thức:**
 $$DPP = \text{Năm trước hòa vốn} + \frac{|\text{PV ngân lưu ròng lũy kế âm cuối cùng}|}{\text{PV ngân lưu ròng của năm kế tiếp}}$$
 
@@ -206,4 +218,5 @@ Giá trị thặng dư xã hội = Giá trị gia tăng quốc dân thuần + Ti
 
 ### 7.10. Suất sinh lợi kinh tế (ERR)
 **Mô tả:** Tương tự IRR nhưng tính cho toàn xã hội, sử dụng lợi ích (B) và chi phí (C) kinh tế.
+
 $$\sum_{t=0}^{n} \frac{B_t - C_t}{(1 + ERR)^t} = 0$$
