@@ -35,6 +35,7 @@ $$PV = \frac{FV}{(1 + r)^n}$$
 
 **Công thức:**
 $$PV = \frac{A}{r}$$
+
 Trong đó:
 - **A:** số tiền đều hàng năm
 - **r:** suất chiết khấu (lãi suất)
@@ -47,6 +48,7 @@ Trong đó:
 
 **Công thức:**
 $$PV = A \times \left[ \frac{1 - (1 + r)^{-n}}{r} \right]$$
+
 Trong đó:
 - **A:** số tiền đều (PMT)
 - **r:** lãi suất
@@ -87,8 +89,9 @@ $$A = PV \times \left[ \frac{r \times (1 + r)^n}{(1 + r)^n - 1} \right]$$
 
 **Công thức:**
 $$NPV = \sum_{t=1}^{n} \frac{NCF_t}{(1 + r)^t} - I_0$$
+
 Trong đó:
-- **NCFt:** Dòng ngân lưu ròng tại thời điểm t
+- **$NCF_t$:** Dòng ngân lưu ròng tại thời điểm t
 - **r:** Suất chiết khấu
 - **I0:** Khoản đầu tư ban đầu
 
@@ -170,10 +173,10 @@ $$E_n = E_0 \times I_{Rn}$$
 ## 5. Chi phí sử dụng vốn bình quân gia quyền (WACC)
 
 ### 5.1. WACC (chưa tính lá chắn thuế)
-$$WACC = (\%E \times r_E) + (\%D \times r_D)$$
+WACC = (%E x r_E) + (%D x r_D)
 
 ### 5.2. WACC (có tính lá chắn thuế)
-$$WACC = (\%E \times r_E) + (\%D \times r_D \times (1 - t))$$
+WACC = (%E x r_E) + (%D x r_D x (1 - t))
 
 ---
 
@@ -220,3 +223,4 @@ Giá trị thặng dư xã hội = Giá trị gia tăng quốc dân thuần + Ti
 **Mô tả:** Tương tự IRR nhưng tính cho toàn xã hội, sử dụng lợi ích (B) và chi phí (C) kinh tế.
 
 $$\sum_{t=0}^{n} \frac{B_t - C_t}{(1 + ERR)^t} = 0$$
+
