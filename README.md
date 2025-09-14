@@ -1,5 +1,4 @@
 # School-Project
-This repo is used to archive my note-taking and some project Excel files from school
 
 ## [Investment Project Establishment and Appraisal](Investment_project_establishment_and_appraisal)
 - **Financial Modeling & Appraisal**: Build financial appraisal reports (Cash Flow, NPV, IRR, PI, PP) under multiple perspectives (Total Investment, Investor’s Equity, Budgetary, and Economic-Social).  
